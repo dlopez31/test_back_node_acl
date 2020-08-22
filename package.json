@@ -1,0 +1,25 @@
+{
+  "name": "cenco-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start-node": "node index",
+    "test": "jest",
+    "test-verbose": "jest --verbose",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4"
+  }
+}
